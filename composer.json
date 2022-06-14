@@ -1,0 +1,22 @@
+{
+    "name": "sto71/try-make-package",
+	"description": "try make a package",
+	"type": "library",
+	"sto71": "MIT",
+	"authors": [
+        {
+            "name": "Tony Wu",
+            "email": "tony.wu@wakeasp.com.tw"
+        }
+    ],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=7.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "Flower\\Rose\\": "src/Flower/Rose",
+			"Flower\\Lily\\": "src/Flower/Lily"
+        }
+    }
+}
